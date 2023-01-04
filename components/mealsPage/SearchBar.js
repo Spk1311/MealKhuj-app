@@ -7,6 +7,7 @@ function SearchBar({ searchText, setSearchText }) {
       className={classes.input}
       value={searchText}
       onChange={(e) => setSearchText(e.target.value)}
+      placeholder="Search"
     />
   );
 }
